@@ -36,6 +36,29 @@ namespace DataAccessLayer.Repositories
             return c.Blogs.ToList();
         }
 
+        public List<Blog> ListAll()
+        {
+            throw new NotImplementedException();
+        }
 
+        public void Insert(Blog t)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Update(Blog t)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Delete(Blog t)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Blog GetById(int id)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
